@@ -12,3 +12,7 @@ body{
     text-align: center;
     padding-top: 1%;
 }
+
+.card {
+    margin: 2% 10% 0% 10%;
+}
