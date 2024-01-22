@@ -2,7 +2,7 @@ body{
     background-color: lightblue;
 }
 
-
+/* header/text styling*/
 .header1{
     text-align: center;
     padding-top: 2.5%;
@@ -13,6 +13,32 @@ body{
     padding-top: 1%;
 }
 
+.header3{
+    text-align: center;
+    padding-top: .5%;
+}
+/* header/text styling*/
+
+
+
+
+/* Card styling*/
 .card {
     margin: 2% 10% 0% 10%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
 }
+
+.img-border{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+}
+/* Card styling*/
+
+
+/*Button styling*/
+.btn{
+    
+}
+
