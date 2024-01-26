@@ -20,8 +20,6 @@ body{
 /* header/text styling*/
 
 
-
-
 /* Card styling*/
 .card {
     margin: 2% 10% 0% 10%;
@@ -39,6 +37,34 @@ body{
 
 /*Button styling*/
 .btn{
-    
+    margin: 5px;
+    border-radius: 50%; 
+    height: 10vw; 
+    max-height: 100px; 
+    width: 10vw; 
+    max-width: 100px;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+@media (max-width: 767px) {
+    .btn {
+        font-size: 0.8em; /* Adjust the font size for small screens */
+        line-height: 1.2; /* Adjust line height for vertical centering */
+    }
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: greenyellow;
+}
+
+/*button styling*/
+
+
+
+
 
