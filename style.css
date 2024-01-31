@@ -65,6 +65,22 @@ body{
 /*button styling*/
 
 
+/*footer hover/footerstyle */
+.footerhover:hover{
+    animation: bounce .3s infinite alternate;
+    
+  }
+  
+  @keyframes bounce {
+    to { transform: scale(1.2); }
+  }
+  
+  .footerstyle{
+    bottom: 0;
+    
+  }
+  /*footer hover  */
+
 
 
 
