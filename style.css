@@ -77,9 +77,27 @@ body{
   
   .footerstyle{
     bottom: 0;
+    width: 100%;
     
   }
-  /*footer hover  */
+
+  .btn2{
+    margin: 5px;
+    border-radius: 50%; 
+    height: 10vw; 
+    max-height: 50px; 
+    width: 10vw; 
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    padding-bottom: 32px; 
+}
+
+
 
 
 
